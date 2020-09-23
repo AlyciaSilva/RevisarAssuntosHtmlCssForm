@@ -2,29 +2,52 @@
     <head>
         <meta charset = "utf-8">
         <title>Revisando os elementos</title>
+        <link rel="stylesheet" href="maquiagem.css">
     </head>
     <body>
-        <h3>Díficil se lembrar?</h3>
-        <ul>
-            <li>Posso Começar com as listas</li>
-            <li>Engraçadas não?</li>
-        <table>
-            <tr>
-                <th>Html</th>
-                <th>CSS</th>
-                <th>form</th>
-            </tr>
-            <tr>
-                <td>é a base</td>
-                <td>É a maquiagem</td>
-                <td>É a interação</td>
-            </tr>
-        </table>
-        </ul>
-        <br>
-        <p>Um pouco engraçado não? Lembre-se que as tags tem Id's e classes</p>
-        <img src="img-sorry-sensei.jpg" alt="Se nao carregar eu choro ne" style="width:200px;height:200px;">
-        <p>Não ta sendo o MELHOR do sites pq tô com sono ai quebra fesso </p>
+        <div id = "folha">
+            <h3> <span>Hello World</span></h3>
+            <ul id = "esquerda">
+                <li>Posso Começar com as listas</li>
+                <li>Engraçadas não?</li>
+                <table>
+                    <tr>
+                        <th>Html</th>
+                        <th>CSS</th>
+                        <th>form</th>
+                    </tr>
+                    <tr>
+                        <td>é a base</td>
+                        <td>É a maquiagem</td>
+                        <td>É a interação</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <p id = "esquerda">Um pouco engraçado não? Lembre-se que as tags tem Id's e classes</p>
+            <img id = "esquerda" src="im-sorry-sensei.jpg" alt="Se nao carregar eu choro ne" style="width:200px;height:200px;">
+            <p id = "esquerda">Não ta sendo o MELHOR do sites pq tô com sono ai quebra fesso </p>
+            <h3 >MAS E O FORM??????</h3>
+            <p id = "esquerda">Realmente, cadê?</p>
+            <form id = "esquerda">
+                <label for = "fname"> Qual seu nome?:</label><br>
+                <input type = "text" id="fname" name="fname"><br>
+                <p>Legal, você tá gostando?</p>
+                
+                <input type = "radio" id = "Sim" name = "Pergunta" value = "Sim">
+                <label for ="Sim">Sim?</label><br>
+                
+                <input type = "radio" id = "Talvez" name = "Pergunta" value = "Talvez">
+                <label for = "Talvez">Talvez</label><br>
+                
+                <p> No fim foi legal né? </p>
+                <input type = "checkbox" id = "1" name = "Simm" value = "Simm">
+                <label for = "Simm"> SIMMMMMMMMMM :))</label><br>
+                <input type = "checkbox" id = "2" name = "Não." value = "Não.">
+                <label for = "Não."> I have a car</label><br>                
 
+                <input type = "submit" value = "OK">
+              </form>
+        </div>
     </body>
 </html>
