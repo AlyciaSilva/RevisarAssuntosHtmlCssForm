@@ -1,12 +1,8 @@
 #folha {
     background-color: white;
-    display: flex;
-    justify-content: space between;
-    align-items: center;
-    flex-direction: column;
     width: 70%;
     border-radius: 2px;
-    padding: 0 2.5%;
+    padding: 1% 2.5%;
     width: 60%;
     margin-left: auto;
     margin-right: auto
@@ -14,9 +10,12 @@
 body {
     background-color: lightpink;
   }
-.esquerda {
-    margin-left: ;
-}  
+#centro {
+    text-align: center
+}
 span {
     border: 1px solid black;
 }
+table, th, td {
+    border: 1px solid black;
+  }
