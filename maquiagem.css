@@ -2,16 +2,26 @@
     background-color: white;
     width: 70%;
     border-radius: 2px;
-    padding: 1% 2.5%;
+    padding: 1% 1%;
     width: 60%;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
+    font-family: "Arial", "Helvetica", sans-serif;
 }
 body {
-    background-color: lightpink;
-  }
+    background-image: url('fundo.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#borda {
+    border: 2px solid #4C0099;
+    border-radius: 4px;
+    padding-left: 2%;
+    padding-right: 2%
+}  
 #centro {
-    text-align: center
+    text-align: center;
 }
 span {
     border: 1px solid black;
